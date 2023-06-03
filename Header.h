@@ -6,8 +6,8 @@
 typedef struct {
 
     char oib[13];
-    char ime[50];
-    char prezime[50];
+    char ime[20];
+    char prezime[30];
 
     int brojRoditelja;
     int brojZaposlenihRoditelja;
@@ -29,6 +29,7 @@ void sortirajPoPrezimenu(DIJETE* podatci, int brojDjece);
 void rangLista(DIJETE* podatci, int brojDjece);
 void ispravakPogresnihPodataka(DIJETE* podatci, int brojDjece);
 void izbornik(const char* const imeDatoteke);
+void ispisDjeteta(DIJETE* podatciDjeteta);
 
 
 #endif
